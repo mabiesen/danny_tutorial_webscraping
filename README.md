@@ -46,17 +46,30 @@ for item in really_long_list:
 
 Part of the purpose of this tutorial is to teach you the value of functions.  Version 1 of the tutorial will show you a version of the script without functions, version 2 of the tutorial will show you a script with functions.
 
-Functions are just a way to keep code clean and reuseable.   Lets say I want to say hello to someone:
+Functions are just a way to keep code clean and reuseable.   Lets say I want to say pickup a girl:
 ```python
-print('Hello matthew! How are you?')
+print('Hello Jenny baby! How you doin?')
 ```
 
-But lets later the name changes, because I am saying hi to someone else! maybe hundreds of people! we could just rewrite the statement above with someone elses name, but there is a cleaner way to code this:
+But lets say later the name changes, because I am saying hi to someone else! maybe hundreds of people! we could just rewrite the statement above with someone elses name, but there is a cleaner way to code this:
 ```python
-def greet(name)
-  print('Hello ' + name + '! How are you?')
+def print_pickupline(name)
+  print('Hello ' + name + ' baby! How you doin?')
   
-greet('matthew')
-greet('danny')
+print_pickupline('Sandra')
+print_pickupline('Cassie')
+print_pickupline('Katy')
 ```
-^^ I didnt have to write the same thing multiple times! I wrote it once and reused it.  When we call greet, the name is passed to the function.
+^^ I didnt have to write the same thing multiple times! I wrote the code for greeting someone once and reused it for multiple people.  When we call the greet function, the name is passed to the function, the function prints the name.
+
+Now in the above example we were just printing, but what if we wanted to get something back from a function? What if I want to create a function that tells me whether a girl is too young to be dating her?
+```python
+
+def is_she_too_young(girls_age, guys_age)
+  half_of_guys_age = guys_age/2
+  minimum_appropriate_age = half_of_guys_age + 7
+  if girls_age < minimum_appropriate_age:
+    return false
+  else:
+    return true
+```
