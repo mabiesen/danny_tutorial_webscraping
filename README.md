@@ -46,4 +46,17 @@ for item in really_long_list:
 
 Part of the purpose of this tutorial is to teach you the value of functions.  Version 1 of the tutorial will show you a version of the script without functions, version 2 of the tutorial will show you a script with functions.
 
-Functions are just a way to keep code clean and reuseable.   
+Functions are just a way to keep code clean and reuseable.   Lets say I want to say hello to someone:
+```
+print('Hello matthew! How are you?')
+```
+
+But lets later the name changes, because I am saying hi to someone else! maybe hundreds of people! we could just rewrite the statement above with someone elses name, but there is a cleaner way to code this:
+```
+def greet(name)
+  print('Hello ' + name + '! How are you?')
+  
+greet('matthew')
+greet('danny')
+```
+^^ I didnt have to write the same thing multiple times! I wrote it once and reused it.  When we call greet, the name is passed to the function.
