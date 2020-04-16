@@ -74,4 +74,8 @@ def is_she_too_young(girls_age, guys_age)
     return false
   else:
     return true
+    
+answer = is_she_too_young(18, 33)
+print(answer)
 ```
+^^ we defined a function called 'is_she_too_young', with arguments of 'girls_age' and 'guys_age'.  When then passed our function some ages, the function returned either 'true' or 'false', and we returned the answer to our variable 'answer'.  We then print the answer.  The answer should be false, because (33/2) + 7 is like 23.5 years old.
