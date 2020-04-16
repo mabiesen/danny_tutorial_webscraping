@@ -4,7 +4,7 @@ tutorial for webscraping
 
 ## Python understanding needed to fully understand the scxripts
 
-There are a few structures in python you need to know to understand this tutorial.
+There are a few basic structures in python you should know to understand this tutorial.
 
 If you don't know them right away after reading through this page, don't worry, move on, play with the code! In programming hands on learning is the best.  These structures will make sense when you see them used in the scripts.
 
