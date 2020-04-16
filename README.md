@@ -20,21 +20,22 @@ x = [1,2,3,4,5]
 Often times in programming, we need to build lists of things, we dont always start off with values in the list.  To add values to the list, we should use the 'append' method
 ```python
 x = []
-x.append('matt')
-x.append('danny')
+x.append('Suzy')
+x.append('Jenny')
+x.append('Karen')
 ```
-^^ the list now contains the strings matt and danny
+^^ the list now contains the strings suzy and jenny
 
-Of course, the purpose of putting something INTO a list is so that you can take it out later! To simplify this process lists are secretly associated with index numbers.  In the example above, 'matt' is at position 0, 'danny' is at position 1, 'scott' is at position 2.  Lets say I want to get matt from the list:
+Of course, the purpose of putting something INTO a list is so that you can take it out later! To simplify this process lists are secretly associated with index numbers.  In the example above, 'Suzy' is at position 0, 'Jenny' is at position 1, 'Karen' is at position 2.  Lets say I want to get Suzy from the list:
 ```
-x = ['matt', 'danny', 'scott']
+x = ['Suzy', 'Jenny', 'Karen']
 x[0]
 ```
-^^ matt is at position zero, so matt is returned.  if we instead did:
+^^ Suzy is at position zero, so Suzy is returned.  if we instead did:
 ```python
 x[1]
 ```
-^^ danny would be returned
+^^ Jenny would be returned
 
 Now that method for getting items from a list is great, but what if we have a list of over 100 items and we want to go through and print each item in the list individually?  We would need to use a structure like the following:
 ```python
