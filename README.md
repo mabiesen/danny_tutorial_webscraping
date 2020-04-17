@@ -64,7 +64,7 @@ x.append('Suzy')
 x.append('Jenny')
 x.append('Karen')
 ```
-^^ the list now contains the strings suzy and jenny
+^^ the list now contains the strings suzy and jenny and karen
 
 Of course, the purpose of putting something INTO a list is so that you can take it out later! To simplify this process lists are secretly associated with index numbers.  In the example above, 'Suzy' is at position 0, 'Jenny' is at position 1, 'Karen' is at position 2.  Lets say I want to get Suzy from the list:
 ```
