@@ -68,7 +68,7 @@ print_pickupline('Katy')
 Now in the above example we were just printing, but what if we wanted to get something back from a function? What if I want to create a function that tells me whether a girl is too young to be dating her?
 ```python
 
-def is_she_too_young(girls_age, guys_age)
+def is_she_too_young(girls_age, guys_age):
   half_of_guys_age = guys_age/2
   minimum_appropriate_age = half_of_guys_age + 7
   if girls_age < minimum_appropriate_age:
