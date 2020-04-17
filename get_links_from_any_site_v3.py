@@ -22,7 +22,7 @@ def get_html_for_url(url):
 
 # get all links with in the page using beautifulsoup
 # beautifulsoup parses html and makes searching for features easy
-def get_links_from_html(html):
+def get_hrefs_from_html(html):
   exampleSoup = bs4.BeautifulSoup(html, features="html.parser")
   link_elements = exampleSoup.find_all('a', href=True)
   hrefs = []
@@ -43,7 +43,7 @@ def get_full_urls_from_hrefs(href_array, base_url):
 url = get_url_from_user()
 base_url = get_base_url_from_url(url)
 html = get_html_for_url(url)
-hrefs = get_links_from_html(html)
+hrefs = get_hrefs_from_html(html)
 links = get_full_urls_from_hrefs(hrefs, base_url)
 
 #print the links
