@@ -20,7 +20,7 @@ def get_html_for_url(url):
   result.raise_for_status()
   return result.text #we dont need the result status detail, just html
 
-# get all links with in the page using beautifulsoup
+# get all link hrefs with in the page using beautifulsoup
 # beautifulsoup parses html and makes searching for features easy
 def get_hrefs_from_html(html):
   exampleSoup = bs4.BeautifulSoup(html, features="html.parser")
