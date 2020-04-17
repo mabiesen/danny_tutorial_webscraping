@@ -96,7 +96,7 @@ print('Hello Jenny baby! How you doin?')
 
 But lets say later the name changes, because I am saying hi to someone else! maybe hundreds of people! we could just rewrite the statement above with someone elses name, but there is a cleaner way to code this:
 ```python
-def print_pickupline(name)
+def print_pickupline(name):
   print('Hello ' + name + ' baby! How you doin?')
   
 print_pickupline('Sandra')
