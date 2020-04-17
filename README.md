@@ -93,6 +93,7 @@ Functions are just a way to keep code clean and reuseable.   Lets say I want to 
 ```python
 print('Hello Jenny baby! How you doin?')
 ```
+^^print is a function! a built in function
 
 But lets say later the name changes, because I am saying hi to someone else! maybe hundreds of people! we could just rewrite the statement above with someone elses name, but there is a cleaner way to code this:
 ```python
