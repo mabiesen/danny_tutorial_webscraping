@@ -31,10 +31,14 @@ Versions of the script:
 
 [V1](get_cnn_health_links_v1.py) - Super basically written
 
-[V2](get_cnn_health_links_v2.py) - We functionalize the script a bit to make it more understandable - 
+[V2](get_cnn_health_links_v2.py) - We functionalize the script a bit to make it more understandable
 
-[V3](get_links_from_any_site_v3.py) - We allow the user to supply ANY website, we get all links from that website - 
+[V3](get_links_from_any_site_v3.py) - We allow the user to supply ANY website, we get all links from that website
 
+NOTE:  to run any python file, you just need to type the following in terminal while in the same directory as the file.  Ex.
+```
+python3 some_file_name.py
+```
 
 ## Python understanding needed to fully understand the scxripts
 
