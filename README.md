@@ -1,6 +1,22 @@
 # danny_tutorial_webscraping
 tutorial for webscraping
 
+## Prerequisites
+
+Python is already installed
+
+Pip is installed.  to install:
+```
+sudo apt-get install python3-pip
+```
+
+Library bs4 is already installed
+
+To install the beautiful soup library, using pip:
+```
+pip3 install bs4
+```
+
 ## Overview
 
 This tutorial lays out some basic python principles(in this page), and then shows you three versions of a webscraping script that do almost exactly the same thing, but making the script a little better each time.  Because you said you are interested in health articles, we are looking at cnn.com/health for all links on that page.  
