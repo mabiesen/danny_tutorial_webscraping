@@ -1,12 +1,32 @@
 # danny_tutorial_webscraping
 tutorial for webscraping
 
+## Overview
+
+This tutorial lays out some basic python principles(in this page), and then shows you three versions of a webscraping script that do almost exactly the same thing, but making the script a little better each time.  Because you said you are interested in health articles, we are looking at cnn.com/health for all links on that page.  
+
+What is webscraping?  Webscraping is gathering data from websites by looking through the raw html and collecting information you like. This is really valuable because a lot of information isn't written down for people to get easily (like stockmarket data!) 
+
+Webscraping is really easy, because someone else already wrote the code which allows us to get the html and look through it! We just need to borrow their code for use in our project.  In python, the best library for getting html from a website is the 'requests' library, and the best library for looking through html is called 'bs4' (bs stands for Beautiful Soup)
+
+After Reviewing the little python refresher below, look start look at the scripts! Take a look at the comments each script, run the script to see how it works, play with the script a bit, make small changes so that you can understand how it works.
+
+Versions of the script:
+
+[V1](get_cnn_health_links_v1.py) - Super basically written
+
+[V2](get_cnn_health_links_v2.py) - We functionalize the script a bit to make it more understandable - 
+
+[V3](get_links_from_any_site_v3.py) - We allow the user to supply ANY website, we get all links from that website - 
+
 
 ## Python understanding needed to fully understand the scxripts
 
 There are a few basic structures in python you should know to understand this tutorial.
 
-If you don't know them right away after reading through this page, don't worry, move on, play with the code! In programming hands on learning is the best.  These structures will make sense when you see them used in the scripts.
+The brief overview here won't be comprehensive, you may have to look the code over a few times or come back to it later
+
+But this is okay, don't worry about understanding how EVERYTHING works, play with the code to see for yourself! In programming hands on learning is the best.  These structures will make sense when you see them used in the scripts.
 
 
 #### Lists/arrays.  
