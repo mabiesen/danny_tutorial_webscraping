@@ -49,7 +49,7 @@ The brief overview here won't be comprehensive, you may have to look the code ov
 But this is okay, don't worry about understanding how EVERYTHING works, play with the code to see for yourself! In programming hands on learning is the best.  These structures will make sense when you see them used in the scripts.
 
 
-#### Lists/arrays.  
+### Lists/arrays.  
 
 You will see these terms sometimes used interchangeably.  A list is in python is like it sounds, a list! it can be a list of anything: numbers, text, other lists, etc.  Python is very flexible like this, other languages often make you put only 1 type into a list.  Here is an example list
 ```python
@@ -85,7 +85,7 @@ for item in really_long_list:
 ```
 ^^ the variable 'item' is set to the first item in the list, we print the item, and then the list loops onto the next item.  Once we have gone through all items in the list, the code moves on
 
-#### Functions
+### Functions
 
 Part of the purpose of this tutorial is to teach you the value of functions.  Version 1 of the tutorial will show you a version of the script without functions, version 2 of the tutorial will show you a script with functions.
 
