@@ -113,9 +113,9 @@ def is_she_too_young(girls_age, guys_age):
   half_of_guys_age = guys_age/2
   minimum_appropriate_age = half_of_guys_age + 7
   if girls_age < minimum_appropriate_age:
-    return true
+    return True
   else:
-    return false
+    return False
     
 answer = is_she_too_young(18, 33)
 print(answer)
