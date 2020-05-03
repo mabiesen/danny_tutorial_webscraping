@@ -3,7 +3,10 @@ tutorial for webscraping
 
 ## Prerequisites
 
-Python is already installed
+Python is already installed. to install:
+```
+sudo apt-get install python3
+```
 
 Pip is installed.  to install:
 ```
