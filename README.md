@@ -115,6 +115,8 @@ Now in the above example we were just printing, but what if we wanted to get som
 def is_she_too_young(girls_age, guys_age):
   half_of_guys_age = guys_age/2
   minimum_appropriate_age = half_of_guys_age + 7
+  if minimum_appropriate_age < 18:
+    return True
   if girls_age < minimum_appropriate_age:
     return True
   else:
